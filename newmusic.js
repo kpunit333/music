@@ -1,8 +1,8 @@
 
-    let fullpath = "http://127.0.0.1:5500/audio/";
+    let fullpath = "https://github.com/kpunit333/music/blob/main/audio/";
     // let path = "audio/";
-    let path = "http://127.0.0.1:5500/audio/";
-    let stylefullpath = "http://127.0.0.1:5500/css/";
+    let path = "https://github.com/kpunit333/music/blob/main/audio/";
+    let stylefullpath = "https://github.com/kpunit333/music/blob/main/css";
 
     let stylepath = "css/";
     let playicon = document.getElementById('playicon');
