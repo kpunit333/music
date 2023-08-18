@@ -1,0 +1,83 @@
+:root{
+    --babypink: rgb(202, 19, 208);
+    /* --dark-pink-shade: rgb(39, 5, 34); */
+    /* --dark-pink-shade: rgb(62, 9, 55); */
+
+
+    --babygreen: rgb(32, 208, 19);
+    --babygreen1: rgba(32, 208, 19, 0.6);
+    /* --dark-green-shade: rgb(7, 39, 5); */
+    --dark-green-shade: rgb(12, 60, 9);
+
+    --babyyellow: yellow;
+    /* --dark-yellow-shade: rgb(39, 38, 5); */
+
+    --babyred: orangered;
+    /* --dark-red-shade: rgb(39, 5, 5); */
+    /* --dark-red-shade: rgb(72, 11, 11); */
+
+    --babytheme: var(--babygreen);
+    --babytheme-transparency1 : var(--babygreen1);
+    --dark-theme-shade: var(--dark-green-shade);
+}
+
+
+#navlogo>img
+{
+    /* content: url("https://storage.needpix.com/rsynced_images/music-app-icon-3362643_1280.png"); */
+    content: url("../img/green-black-logo.png");
+    background-color: var(--babytheme);
+    /* background-color: aqua; */
+    border-radius: 25px;
+    cursor:crosshair;
+    animation-name: ani_img;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani_img{
+    from
+    {
+        background-color: var(--babytheme);
+        /* content: url("https://storage.needpix.com/rsynced_images/music-app-icon-3362643_1280.png"); */
+        content: url("../img/green-black-logo.png");
+
+    }
+    to
+    {
+        background-color: var(--babytheme);
+        content: url("../img/transparent-mic.png");
+
+    }        
+}
+
+
+#songlist>ul>li>img{
+    content: url("https://ak.picdn.net/shutterstock/videos/1022559565/thumb/9.jpg");
+
+    width: 3rem;
+    border: 1px solid var(--babytheme);
+    border-radius: 10px;
+}
+
+
+#right{
+    /* border: 2px solid blue; */
+    height: 75vh;
+    margin: 0%;
+    
+    background: url("../img/green-bg-gif.gif");
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+}
+
+#right>img{
+    content: url("../img/green-img-gif.gif");
+
+    height: 55%;
+}

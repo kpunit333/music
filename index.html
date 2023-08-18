@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link id="ss" rel="stylesheet" href="css/musicpinkdark.css">
+
+    <link rel="shortcut icon" href="../img/music-favicon.jpg" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/bc0cab2d07.js" crossorigin="anonymous"></script>
+
+    <title>pTunes</title>
+</head>
+<body style="background-color: black;">
+    
+    <nav id="navbar">
+        <div id="navlogo">
+            <img width="43px" height="43px" alt="Logo">
+                <h6>pTunes</h6>
+
+        </div>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <button id="themebtn" onclick="theme()"><i class="fa-solid fa-moon"></i></button>
+            </li>
+        </ul>
+        <!-- <div id="navsearch">
+            <input id="navinput" type="text" placeholder="Search" style="outline: none; margin: 0% 2%;">
+            <button type="submit" style="margin: 0% 3%;">Search</button>
+
+        </div> -->
+    </nav>
+
+    <div id="genrebox" class="genreitems">
+
+            <span id="songs" class="active-genre genre">All songs</span>
+            <span id="patriotic" class="genre" >Patriotic</span>
+            <span id="sad" class="genre" >Sad</span>
+            <span id="party" class="genre" >Happy</span>
+            <span id="retro" class="genre" >Retro</span>
+            <span id="romantic"  class="genre" >Romantic</span>
+            <span id="devotional" class="genre" >Devotional</span>
+            <span id="classical"  class="genre" >Classical</span>
+    </div>
+
+    <div id="container">
+        <div id="songlist" class="sides">
+            <ul id="songul">
+
+                <!-- patriotic -->
+
+                <li id="maa_tujhe_salaam" class="active songs patriotic" >
+                    <img id="maa_tujhe_salaam" src="" alt="M">
+                    <span id="maa_tujhe_salaam" >Maa tujhe salaam</span>
+                </li>
+
+                <li id="ae_watan_watan" class="active songs patriotic" >
+                    <img id="ae_watan_watan" src="" alt="M">
+                    <span id="ae_watan_watan" >Ae watan watan</span>
+                </li>
+
+                <li id="sandeshe_aate_hai" class="active songs patriotic" >
+                    <img id="sandeshe_aate_hai" src="" alt="M">
+                    <span id="sandeshe_aate_hai" >Sandeshe aate hai</span>
+                </li>
+
+                <li id="azadi_ke_liye" class="active songs patriotic" >
+                    <img id="azadi_ke_liye" src="" alt="M">
+                    <span id="azadi_ke_liye" >Azadi ke liye</span>
+                </li>
+
+                <li id="aye_mere_watan_ke_logo" class="active songs patriotic" >
+                    <img id="aye_mere_watan_ke_logo" src="" alt="M">
+                    <span id="aye_mere_watan_ke_logo" >Aye mere watan ke logo</span>
+                </li>
+
+                <li id="saare_jahan_se_acha" class="active songs patriotic" >
+                    <img id="saare_jahan_se_acha" src="" alt="M">
+                    <span id="saare_jahan_se_acha" >Saare jahan se acha</span>
+                </li>
+
+                <li id="ab_tumhare_hawale_watan_sathiyo" class="active songs patriotic" >
+                    <img id="ab_tumhare_hawale_watan_sathiyo" src="" alt="M">
+                    <span id="ab_tumhare_hawale_watan_sathiyo" >Ab tumhare hawale watan sathiyo</span>
+                </li>
+
+                <li id="mera_mulk_mera_desh" class="active songs patriotic" >
+                    <img id="mera_mulk_mera_desh" src="" alt="M">
+                    <span id="mera_mulk_mera_desh" >Mera mulk mera desh</span>
+                </li>
+
+                <li id="lehra_do" class="active songs patriotic" >
+                    <img id="lehra_do" src="" alt="M">
+                    <span id="lehra_do" >Lehra do</span>
+                </li>
+
+                <li id="jai_ho" class="active songs patriotic" >
+                    <img id="jai_ho" src="" alt="M">
+                    <span id="jai_ho" >Jai ho</span>
+                </li>
+
+                <li id="phir_bhi_dil_hai_hindustani" class="active songs patriotic" >
+                    <img id="phir_bhi_dil_hai_hindustani" src="" alt="M">
+                    <span id="phir_bhi_dil_hai_hindustani" >Phir bhi dil hai hindustani</span>
+                </li>
+
+                <li id="kadam_kadam_badhaye_jaa" class="active songs patriotic" >
+                    <img id="kadam_kadam_badhaye_jaa" src="" alt="M">
+                    <span id="kadam_kadam_badhaye_jaa" >Kadam kadam badhaye jaa</span>
+                </li>
+
+                <li id="rang_de_basanti" class="active songs patriotic" >
+                    <img id="rang_de_basanti" src="" alt="M">
+                    <span id="rang_de_basanti" > Rang de basanti</span>
+                </li>
+
+                <li id="main_lad_jaana" class="active songs patriotic" >
+                    <img id="main_lad_jaana" src="" alt="M">
+                    <span id="main_lad_jaana" >Main lad jaana</span>
+                </li>
+
+                <li id="desh_rangila" class="active songs patriotic" >
+                    <img id="desh_rangila" src="" alt="M">
+                    <span id="desh_rangila" >Desh rangila </span>
+                </li>
+
+                <li id="chak_de_india" class="active songs patriotic" >
+                    <img id="chak_de_india" src="" alt="M">
+                    <span id="chak_de_india" >Chak de india </span>
+                </li>
+
+
+
+                <!-- sad -->
+
+                <li id="ae_dil_hai_mushkil" class="active songs sad" >
+                    <img id="ae_dil_hai_mushkil" src="" alt="M">
+                    <span id="ae_dil_hai_mushkil" >Ae dil hai mushkil</span>
+                </li>
+
+                <li id="laree_chooti" class="active songs sad" >
+                    <img id="laree_chooti" src="" alt="M">
+                    <span id="laree_chooti" >Laree chooti</span>
+                </li>
+
+                <li id="aabaad_barbaad" class="active songs sad" >
+                    <img id="aabaad_barbaad" src="" alt="M">
+                    <span id="aabaad_barbaad" >Aabaad barbaad</span>
+                </li>
+
+                <li id="abhi_mujhme_kahin" class="active songs sad" >
+                    <img id="abhi_mujhme_kahin" src="" alt="M">
+                    <span id="abhi_mujhme_kahin" >Abhi mujhme kahi</span>
+                </li>
+
+                <li id="shayad" class="active songs sad" >
+                    <img id="shayad" src="" alt="M">
+                    <span id="shayad" >Shayad</span>
+                </li>
+                
+                <li id="jab_koi_baat" class="active songs sad" >
+                    <img id="jab_koi_baat" src="" alt="M">
+                    <span id="jab_koi_baat" >Jab koi baat</span>
+                </li>
+                
+                <li id="behti_hawa_sa_tha_woh" class="active songs sad" >
+                    <img id="behti_hawa_sa_tha_woh" src="" alt="M">
+                    <span id="behti_hawa_sa_tha_woh" >Behti hawa sa tha woh</span>
+                </li>
+                
+                <li id="give_me_some_sunshine" class="active songs sad" >
+                    <img id="give_me_some_sunshine" src="" alt="M">
+                    <span id="give_me_some_sunshine" >Give me some sunshine</span>
+                </li>
+                
+                <li id="jaane_tujhe_denge_nahi" class="active songs sad" >
+                    <img id="jaane_tujhe_denge_nahi" src="" alt="M">
+                    <span id="jaane_tujhe_denge_nahi" >Jaane tujhe denge nahi</span>
+                </li>
+                
+                <li id="bhagwan_hai_kaha_re_tu" class="active songs sad" >
+                    <img id="bhagwan_hai_kaha_re_tu" src="" alt="M">
+                    <span id="bhagwan_hai_kaha_re_tu" >Bhagwan hai kaha re tu</span>
+                </li>
+                
+                <li id="tujhe_sab_hai_pata" class="active songs sad" >
+                    <img id="tujhe_sab_hai_pata" src="" alt="M">
+                    <span id="tujhe_sab_hai_pata" >Tujhe sab hai pata</span>
+                </li>
+                
+                <li id="dhaaga" class="active songs sad" >
+                    <img id="dhaaga" src="" alt="M">
+                    <span id="dhaaga" >Dhaaga</span>
+                </li>
+
+
+                
+
+
+                <!-- Party -->
+
+                <li id="sweetheart" class="active songs party" >
+                    <img id="sweetheart" src="" alt="M">
+                    <span id="sweetheart" >Sweet heart</span>
+                </li>
+
+                <li id="pallo_latke" class="active songs party" >
+                    <img id="pallo_latke" src="" alt="M">
+                    <span id="pallo_latke" >Pallo latke</span>
+                </li>
+
+                <li id="kamariya" class="active songs party" >
+                    <img id="kamariya" src="" alt="M">
+                    <span id="kamariya" >Kamariya</span>
+                </li>
+
+                <li id="makhna" class="active songs party" >
+                    <img id="makhna" src="" alt="M">
+                    <span id="makhna" >Makhna</span>
+                </li>
+
+                <li id="nachne_de_saare" class="active songs party" >
+                    <img id="nachne_de_saare" src="" alt="M">
+                    <span id="nachne_de_saare" >Nachne de saare</span>
+                </li>
+
+                <li id="udi_udi_jaaye" class="active songs party" >
+                    <img id="udi_udi_jaaye" src="" alt="M">
+                    <span id="udi_udi_jaaye" >Udi udi jaaye</span>
+                </li>
+
+                
+
+
+
+                <!-- retro -->
+
+                <li id="mera_geet_amar_kardo" class="active songs retro" >
+                    <img id="mera_geet_amar_kardo" src="" alt="M">
+                    <span id="mera_geet_amar_kardo" >Mera geet amar kardo</span>
+                </li>
+
+                <li id="tujhse_naraz_nahi_zindagi" class="active songs retro" >
+                    <img id="tujhse_naraz_nahi_zindagi" src="" alt="M">
+                    <span id="tujhse_naraz_nahi_zindagi" >Tujhse naraz nahi zindagi</span>
+                </li>
+
+                <li id="yeh_raate_yeh_mausam" class="active songs retro" >
+                    <img id="yeh_raate_yeh_mausam" src="" alt="M">
+                    <span id="yeh_raate_yeh_mausam" >Yeh raate yeh mausam</span>
+                </li>
+
+                <li id="jaane_woh_kaise" class="active songs retro" >
+                    <img id="jaane_woh_kaise" src="" alt="M">
+                    <span id="jaane_woh_kaise" >Jaane woh kaise</span>
+                </li>
+
+                <li id="lag_ja_gale" class="active songs retro" >
+                    <img id="lag_ja_gale" src="" alt="M">
+                    <span id="lag_ja_gale" >Lag ja gale</span>
+                </li>
+
+                <li id="jeena_isika_naam" class="active songs retro" >
+                    <img id="jeena_isika_naam" src="" alt="M">
+                    <span id="jeena_isika_naam" >Jeena isi ka Naam</span>
+                </li>
+
+                <li id="hai_apna_dil_to_awara" class="active songs retro" >
+                    <img id="hai_apna_dil_to_awara" src="" alt="M">
+                    <span id="hai_apna_dil_to_awara" >Hai apna dil toh awara</span>
+                </li>
+
+                <li id="tareef_karoon_kya_uski" class="active songs retro" >
+                    <img id="tareef_karoon_kya_uski" src="" alt="M">
+                    <span id="tareef_karoon_kya_uski"  >Tareef Karoon kya uski</span>
+                </li>
+
+                
+
+
+
+                <!-- romantic -->
+
+                <li id="apna_bana_le" class="active songs romantic" >
+                    <img id="apna_bana_le" src="" alt="M">
+                    <span id="apna_bana_le" > Apna bana le </span>
+                </li>
+
+                <li id="main_phir_bhi_tumko_chahunga" class="active songs romantic" >
+                    <img id="main_phir_bhi_tumko_chahunga" src="" alt="M">
+                    <span id="main_phir_bhi_tumko_chahunga" > Main phir bhi tumko chahunga </span>
+                </li>
+
+                <li id="tum_hi_aana" class="active songs romantic" >
+                    <img id="tum_hi_aana" src="" alt="M">
+                    <span id="tum_hi_aana" > Tum hi aana </span>
+                </li>
+
+                <li id="hamari_adhuri_kahani" class="active songs romantic" >
+                    <img id="hamari_adhuri_kahani" src="" alt="M">
+                    <span id="hamari_adhuri_kahani" > Hamari adhuri kahani </span>
+                </li>
+
+                <li id="humnava" class="active songs romantic" >
+                    <img id="humnava" src="" alt="M">
+                    <span id="humnava" > Humnava </span>
+                </li>
+
+                <li id="pal" class="active songs romantic" >
+                    <img id="pal" src="" alt="M">
+                    <span id="pal" > Pal </span>
+                </li>
+
+                
+
+
+
+
+
+                <!-- devotional -->
+
+                <li id="namo_namo_ji_shankara" class="active songs devotional" >
+                    <img id="namo_namo_ji_shankara" src="" alt="M">
+                    <span id="namo_namo_ji_shankara" >Namo Namo JI Shankara</span>
+                </li>
+
+                <li id="shiv_panchak_strotam" class="active songs devotional" >
+                    <img id="shiv_panchak_strotam" src="" alt="M">
+                    <span id="shiv_panchak_strotam" >Shiv panchak strotam</span>
+                </li>
+
+                <li id="aigiri_nandini" class="active songs devotional" >
+                    <img id="aigiri_nandini" src="" alt="M">
+                    <span id="aigiri_nandini" >Aigiri Nandini</span>                    
+                </li>
+
+                <li id="shri_ganeshay_dhimahi" class="active songs devotional" >
+                    <img id="shri_ganeshay_dhimahi" src="" alt="M">
+                    <span id="shri_ganeshay_dhimahi" >Shri Ganeshay Dhimahi</span>
+                </li>
+
+                <li id="shindoor_lal_chadhayo" class="active songs devotional" >
+                    <img id="shindoor_lal_chadhayo"  src="" alt="M">
+                    <span id="shindoor_lal_chadhayo" >Shindoor Lal Chadhayo</span>
+                </li>
+
+                <li id="ganesh_aarti" class="active songs devotional" >
+                    <img id="ganesh_aarti" src="" alt="M">
+                    <span id="ganesh_aarti" >Ganesh aarti</span>
+                </li>
+
+                <li id="har_har_gange" class="active songs devotional" >
+                    <img id="har_har_gange"  src="" alt="M">
+                    <span id="har_har_gange" >Har Har Gange</span>
+                </li>
+
+                <li id="shri_krishna_govinda" class="active songs devotional" >
+                    <img id="shri_krishna_govinda" src="" alt="M">
+                    <span id="shri_krishna_govinda" >Shri Krishna Govinda</span>
+                </li>
+
+                <li id="achyutam_keshavam" class="active songs devotional" >
+                    <img id="achyutam_keshavam" src="" alt="M">
+                    <span id="achyutam_keshavam" >Achyuatam Keshavam</span>
+                </li>
+
+                <li id="ram_siya_ram" class="active songs devotional" >
+                    <img id="ram_siya_ram" src="" alt="M">
+                    <span id="ram_siya_ram" >Ram siya ram</span>
+                </li>
+
+                <li id="shri_ram_janki" class="active songs devotional" >
+                    <img id="shri_ram_janki" src="" alt="M">
+                    <span id="shri_ram_janki" >Shri Ram Janki</span>
+                </li>
+
+
+
+
+
+
+                <!-- classical -->
+
+                <li id="ghar_more_pardesiya" class="active songs classical" >
+                    <img id="ghar_more_pardesiya" src="" alt="M">
+                    <span id="ghar_more_pardesiya" >Ghar more Pardesiya</span>
+                </li>
+
+                <li id="ami_je_tomar" class="active songs classical" >
+                    <img id="ami_je_tomar" src="" alt="M">
+                    <span id="ami_je_tomar" >Ami je tomar</span>
+                </li>
+
+
+
+
+                <!-- the end -->
+                
+            </ul>
+            
+        </div>
+        <div id="right" class="sides">
+            <audio id="music" src="audio/namo_namo_ji_shankara.mp3"></audio>
+            <!-- <img src="https://i.gifer.com/7VA.gif" alt="hehe" style="margin: 12% 2%;"> -->
+            <img src="" alt="">
+        </div>
+    </div>
+    <div id="audiobox">
+        <div id="progress">
+            <input type="range" name="pbar" id="pbar" style="width: 100%;" min="0" max="100" value="0">
+        </div>
+        <div id="songinfo">
+            <div id="covers">
+                <img id="songimg" src="../img/music-paused.jpg" width="100%" height="100%" alt="Cover">
+                <span id="songname">Namo Namo Ji Shankara</span>
+            </div>
+
+            <div id="controls">
+                <button onclick="shuffle()"><i id="playmode" class="fa-solid fa-rotate-right"></i></button>
+                <button onclick="prev()"><i class="fa-solid fa-backward-step"></i></button>
+                <button onclick="playpause()"><i id="playicon" class="fa-solid fa-play"></i></button>
+                <button onclick="next()"><i class="fa-solid fa-forward-step"></i></button>
+                <button onclick="mutesong()"><i id="mute" class="fa-solid fa-volume-high"></i></button>
+                <input type="range" name="vbar" id="vbar" min="0" max="100" value="100" oninput="vout.value=value">
+                <output id="vout">100</output>
+    
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="newmusic.js"></script>
+</html>

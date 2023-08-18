@@ -1,0 +1,84 @@
+:root{
+    --babypink: rgb(202, 19, 208);
+    /* --dark-pink-shade: rgb(39, 5, 34); */
+    /* --dark-pink-shade: rgb(62, 9, 55); */
+
+    
+    --babygreen: rgb(32, 208, 19);
+    /* --dark-green-shade: rgb(7, 39, 5); */
+
+    --babyyellow: yellow;
+    /* --dark-yellow-shade: rgb(39, 38, 5); */
+
+    --babyblue: rgb(0, 132, 255);
+    --babyblue1: rgba(0, 132, 255, 0.6);
+    /* --dark-blue-shade: rgb(8, 30, 54); */
+    --dark-blue-shade: rgb(9, 45, 79);
+
+    --babytheme: var(--babyblue);
+    --babytheme-transparency1 : var(--babyblue1);
+    --dark-theme-shade: var(--dark-blue-shade);
+
+}
+
+#navlogo>img
+{
+    /* content: url("https://storage.needpix.com/rsynced_images/music-app-icon-3362643_1280.png"); */
+    content: url("../img/blue-black-logo.png");
+    
+    /* content: url("https://cdn.shopify.com/s/files/1/0590/7506/8066/products/music-social-network-brand-logo-512_9f9ba614-03fc-4c7d-b75b-7096fd06bc6e_800x.png?v=1631523683"); */
+    background-color: var(--babytheme);
+    /* background-color: aqua; */
+    border-radius: 25px;
+    cursor:crosshair;
+    animation-name: ani_img;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani_img{
+    from
+    {
+        background-color: var(--babytheme);
+        /* content: url("https://storage.needpix.com/rsynced_images/music-app-icon-3362643_1280.png"); */
+        content: url("../img/blue-black-logo.png");
+
+    }
+    to
+    {
+        /* background-color: aqua; */
+        background: var(--babytheme);
+        content: url("../img/transparent-mic.png");
+
+    }        
+}
+
+#songlist>ul>li>img{
+    content: url('../img/blue-mic.webp');
+
+    width: 3rem;
+    border: 1px solid var(--babytheme);
+    border-radius: 10px;
+}
+
+
+#right{
+    /* border: 2px solid blue; */
+    height: 75vh;
+    margin: 0%;
+    
+    background: url("../img/blue-bg-gif.gif");
+
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+}
+
+#right>img{
+    
+    width: 30%;
+    margin: 11% auto;
+}

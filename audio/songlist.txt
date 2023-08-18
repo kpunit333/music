@@ -1,0 +1,78 @@
+
+patriotic:
+    maa tujhe saalam
+    ae watan watan
+    sandeshe aate hai
+    azadi ke liye
+    saare jahan se acha
+    mera mulk mera desh
+    lehra do
+    jai ho
+    phir bhi dil hai hindustani
+    kadam kadam badhaye jaa
+    rang de basanti
+    main lad jaana
+    ab tumhare hawale watan sathiyo
+    desh rangila
+    chak de india
+
+Sad: 
+    Ae dil hai mushkil
+    Laree chooti
+    Aabaad barbaad
+    Abhi mujhme kahin
+    shayad
+    jab koi baat
+    behti hawa sa tha woh
+    give me some sunshine
+    jaane tujhe denge nahi
+    bhagwan hai kaha re tu
+    tujhe sab hai pata
+    dhaaga
+
+
+Party:
+    sweetheart
+    pallo latke
+    kamariya
+    makhna
+    nachne de saare
+    udi udi jaaye
+
+
+Retro:
+    mera geet amar kardo
+    tujhse naraz nahi zindagi
+    yeh raate yeh mausam
+    jaane woh kaise
+    lag ja gale
+    jeena isi ka naam
+    hai apna dil toh awara
+    tareek karoon kya uski
+
+Romantic:
+    apna bana le
+    main phir bhi tumko chahunga
+    tum hi aana
+    hamari adhuri kahani
+    humnava
+    pal
+
+
+Devotional:
+    Namo namo ji shankara
+    Om namah shivay
+    Shiv panchak strotam
+    aigiri nandini
+    shri ganeshay dhimahi
+    shindoor lal chadhayo
+    Ganesh aarti
+    Har har gange
+    Achyutam keshavam
+    sree krishna govinda
+    ram siya ram
+    shri ram janki
+
+Classical:
+    Ghar more pardesiya
+    Ami je tomar
