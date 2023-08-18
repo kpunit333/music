@@ -392,7 +392,7 @@
     // Event listeners
 
     music.addEventListener('playing',()=>{
-        songimg.src = "/img/music-playing.gif"
+        songimg.src = "/music/img/music-playing.gif"
         changeSongName(now);
 
         playchange(1);
@@ -400,7 +400,7 @@
     })
 
     music.addEventListener('pause',()=>{
-        songimg.src = "/img/music-paused.jpg";
+        songimg.src = "/music/img/music-paused.jpg";
 
         playchange(0);
         // console.log("eventlistener-paused => Audio paused.");
